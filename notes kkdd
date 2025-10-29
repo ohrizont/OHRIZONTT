@@ -1,0 +1,17 @@
+Trading prediction and backtesting model for listed securities using data downloaded from Yahoo Finance:
+
+Data download and saving to Excel files in a directory dated today.
+
+List of files in the folder.
+
+Adjustment/normalization of rows in the data files to prepare them for further work.
+
+Calculation of trading indicators and saving them in a new sheet: ADL, Chande_MO, Force_Index, Relative_Strength, Momentum, ROC, Ultimate_Osc, ADX, Aroon_Up, Aroon_Down, Bollinger_High, Bollinger_Mid, Bollinger_Low, SMA, SAR, EMA_10, EMA_20, EMA_50, EMA_100, EMA_200, DEMA_20, TEMA_20, Golden_Cross, Death_Cross, Keltner_High, Keltner_Low, KAMA_10, HMA_20, VWAP, WMA_20, FRAMA_20, Donchian_High, Donchian_Low, SuperTrend, Accumulation_Distribution, Chaikin_Oscillator, Ease_of_Movement, VWMA, Money_Flow_Index, Negative_Volume_Index, On_Balance_Volume, Positive_Volume_Index, Price_Volume_Trend, Volume, Average_Volume_20d, CVI, PPO, VFI, TMF, Awesome_Oscillator, CCI, DPO, RSI, SMI, Stochastic_K, Stochastic_D, SDZ_Upper, SDZ_Lower, SDZ, TRIX, Williams_%R, Bollinger_%b, MACD, MACD_Signal, MACD_Histogram, MACD_Divergence, Stochastic_RSI, Connors_RSI, Elder_Ray_Bull, Elder_Ray_Bear, Vortex_Positive, Vortex_Negative, RVI, Schaff_Trend_Cycle, Average_True_Range, Standard_Deviation, Mass_Index, Chaikin_Volatility, Bollinger_Bandwidth, Historical_Volatility, Donchian_Width, Chandelier_Exit, Ulcer_Index, TSI, Tenkan_sen, Kijun_sen, Senkou_Span_A, Senkou_Span_B, Chikou_Span, Fisher_Transform, ZigZag, Parabolic_SAR_AF.
+
+List of files with the trading indicators.
+
+Execution of the daily trading mechanics, computing the balance each day the mechanics run: cash amounts, invested amounts and total value.
+
+Aggregation of the data for the last year.
+
+Comparative presentation of the trading results for the last year vs. the real market prices, together with buy/sell recommendations for assets according to the centrally defined mechanism for all securities, in a sheet named aggregated_date (of which I include a copy).
