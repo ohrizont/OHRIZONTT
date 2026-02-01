@@ -29,7 +29,7 @@ based on transaction amount is applied on top of a LightGBM model.
 ## Kaggle Notebook
 
 The full case study is available on Kaggle:
-👉 *(add link here)*
+(https://www.kaggle.com/code/ohrizonte/cost-sensitive-fraud-detection-with-dynamic-thresh)
 
 ## Disclaimer
 
