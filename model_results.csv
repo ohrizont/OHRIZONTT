@@ -1,0 +1,14 @@
+experiment_id;model_family;model_name;uses_cpu_benchmark;feature_set;n_features;mae_train;mae_test;r2_train;r2_test;validation;notes
+1;Linear;OLS_inicial;No;full_features;18;235,1;232,4;0,72;0,7;80_20;Modelo lineal sin depurar
+2;Linear;OLS_sin_gpu_redundante;No;reduced_gpu;15;221,3;219,8;0,75;0,74;80_20;Eliminacion gpu_class
+3;Linear;OLS_sin_storage_secundario;No;no_flash_hdd;13;214,6;212,9;0,77;0,76;80_20;Eliminacion Flash_GB y HDD_GB
+4;Linear;OLS_sin_resolucion;No;no_screen_pixels;11;208,7;207,9;0,78;0,77;80_20;Resolucion no aporta
+5;Linear;OLS_final;No;final_linear;9;201,8;203,5;0,8;0,78;80_20;Modelo lineal final
+6;RF;RF_flags_cpu_gpu;No;flags_cpu_gpu;14;168,2;256,1;0,87;0,69;80_20;RF con variables dicotomicas
+7;RF;RF_crudo_categorico;No;raw_categorical;17;142,5;172,3;0,92;0,84;80_20;Primer RF competitivo
+8;RF;RF_simplificado;No;rf_simplified;12;129,8;178,8;0,93;0,83;80_20;Eliminacion variables redundantes
+9;RF;RF_sin_typename;No;no_typename;11;135,4;189,9;0,92;0,82;80_20;Perdida de segmentacion
+10;RF;RF_final;No;rf_final;9;119,9;171,5;0,94;0,84;80_20;Modelo RF final sin benchmarks
+11;RF;RF_cpu_rating;Yes;cpu_rating_set;9;16,9;18,3;0,993;0,991;80_20;Benchmark CPU PassMark
+12;RF;RF_cpu_rating_sin_typename;Yes;no_typename_cpu_rating;8;15,8;15,6;0,993;0,992;80_20;Weight subsume TypeName
+13;RF;RF_cpu_rating_simplificado;Yes;representative_features;7;15,6;15,8;0,992;0,993;80_20;Modelo benchmark final
